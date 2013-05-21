@@ -29,14 +29,6 @@ g是get的简便方法，直接输入url地址即可
 
 配置文件见Test部分
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
 
 ## Test
 
@@ -71,6 +63,18 @@ ruby -Ilib bin/bee_api -f t2.json
 	}
 	
 
-## 欢迎fork
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+
+
+## 欢迎fork和反馈
 
 shiren1118@126.com
+
+这个gem是2013年5月21日.9点50到12点间写的，可能有很多不完善的地方，以后再改进吧

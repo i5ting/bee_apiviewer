@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files of the 'djjskl;' target in the 'djjskl;' project
-//
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-    #import "Bee.h"
-#endif

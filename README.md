@@ -70,3 +70,7 @@ ruby -Ilib bin/bee_api -f t2.json
 	    "method": "get"
 	}
 	
+
+## 欢迎fork
+
+shiren1118@126.com

@@ -1,12 +1,12 @@
 # Bee API  Viewer
 
-this is a gem for preview and edit markdown file use brower.most time we like use teminal and vim,so i write this gem.
+this is a gem for preview and edit api/josn file use brower.most time we like use teminal and vim,so i write this gem.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'mdpreview'
+    gem 'bee_api'
 
 And then execute:
 
@@ -14,11 +14,20 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mdpreview
+    $ gem install bee_api
 
 ## Usage
 
-	$ mdpreview -f README.md
+g是get的简便方法，直接输入url地址即可
+
+	$ bee_api -g http://top.baidu.com/news/pagination\?pageno\=1
+	
+如果使用文件配置方法，既可以支持get方法也可以支持post方法
+
+	$ bee_api -f t1.json
+
+
+配置文件见Test部分
 
 ## Contributing
 

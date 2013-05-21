@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEC5BFC17214C190068237A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5BFB17214C190068237A /* QuartzCore.framework */; };
+		5DEC5BFE17214C190068237A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5BFD17214C190068237A /* Security.framework */; };
+		5DEC5C0017214C190068237A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5BFF17214C190068237A /* SystemConfiguration.framework */; };
+		5DEC5C0217214C190068237A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0117214C190068237A /* AVFoundation.framework */; };
+		5DEC5C0417214C190068237A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0317214C190068237A /* UIKit.framework */; };
+		5DEC5C0617214C190068237A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0517214C190068237A /* Foundation.framework */; };
+		5DEC5C0817214C190068237A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0717214C190068237A /* CoreGraphics.framework */; };
+		5DEC5C0A17214C190068237A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0917214C190068237A /* MobileCoreServices.framework */; };
+		5DEC5C0C17214C190068237A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0B17214C190068237A /* CoreVideo.framework */; };
+		5DEC5C0E17214C190068237A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0D17214C190068237A /* CoreMedia.framework */; };
+		5DEC5C1017214C190068237A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEC5C0F17214C190068237A /* CFNetwork.framework */; };
+		5DEC5C1417214C190068237A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1317214C190068237A /* Default.png */; };
+		5DEC5C1617214C190068237A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1517214C190068237A /* Default@2x.png */; };
+		5DEC5C1817214C1A0068237A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1717214C1A0068237A /* Default-568h@2x.png */; };
+		5DEC5C1A17214C1A0068237A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1917214C1A0068237A /* icon.png */; };
+		5DEC5C1C17214C1A0068237A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1B17214C1A0068237A /* icon@2x.png */; };
+		5DEC5C1F17214C1A0068237A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC5C1E17214C1A0068237A /* iTunesArtwork */; };
+		5DEC5C2317214C1A0068237A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC5C2217214C1A0068237A /* main.m */; };
+		5DEC5C2617214C1A0068237A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC5C2517214C1A0068237A /* AppDelegate.m */; };
+		5DEC5C2917214C1A0068237A /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC5C2817214C1A0068237A /* HelloWorldLayer.m */; };
+		5DEC5C2C17214C1A0068237A /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC5C2B17214C1A0068237A /* IntroLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DEC5BF817214C190068237A /* 舒服的.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "舒服的.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEC5BFB17214C190068237A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5DEC5BFD17214C190068237A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5DEC5BFF17214C190068237A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5DEC5C0117214C190068237A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DEC5C0317214C190068237A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DEC5C0517214C190068237A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DEC5C0717214C190068237A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DEC5C0917214C190068237A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5DEC5C0B17214C190068237A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5DEC5C0D17214C190068237A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5DEC5C0F17214C190068237A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5DEC5C1317214C190068237A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		5DEC5C1517214C190068237A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		5DEC5C1717214C1A0068237A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		5DEC5C1917214C1A0068237A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
+		5DEC5C1B17214C1A0068237A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icon@2x.png"; sourceTree = "<group>"; };
+		5DEC5C1D17214C1A0068237A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		5DEC5C1E17214C1A0068237A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
+		5DEC5C2117214C1A0068237A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		5DEC5C2217214C1A0068237A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DEC5C2417214C1A0068237A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DEC5C2517214C1A0068237A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DEC5C2717214C1A0068237A /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		5DEC5C2817214C1A0068237A /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		5DEC5C2A17214C1A0068237A /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
+		5DEC5C2B17214C1A0068237A /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DEC5BF517214C190068237A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEC5BFC17214C190068237A /* QuartzCore.framework in Frameworks */,
+				5DEC5BFE17214C190068237A /* Security.framework in Frameworks */,
+				5DEC5C0017214C190068237A /* SystemConfiguration.framework in Frameworks */,
+				5DEC5C0217214C190068237A /* AVFoundation.framework in Frameworks */,
+				5DEC5C0417214C190068237A /* UIKit.framework in Frameworks */,
+				5DEC5C0617214C190068237A /* Foundation.framework in Frameworks */,
+				5DEC5C0817214C190068237A /* CoreGraphics.framework in Frameworks */,
+				5DEC5C0A17214C190068237A /* MobileCoreServices.framework in Frameworks */,
+				5DEC5C0C17214C190068237A /* CoreVideo.framework in Frameworks */,
+				5DEC5C0E17214C190068237A /* CoreMedia.framework in Frameworks */,
+				5DEC5C1017214C190068237A /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DEC5BEF17214C190068237A = {
+			isa = PBXGroup;
+			children = (
+				5DEC5C1117214C190068237A /* 舒服的 */,
+				5DEC5BFA17214C190068237A /* Frameworks */,
+				5DEC5BF917214C190068237A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DEC5BF917214C190068237A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC5BF817214C190068237A /* 舒服的.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DEC5BFA17214C190068237A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC5BFB17214C190068237A /* QuartzCore.framework */,
+				5DEC5BFD17214C190068237A /* Security.framework */,
+				5DEC5BFF17214C190068237A /* SystemConfiguration.framework */,
+				5DEC5C0117214C190068237A /* AVFoundation.framework */,
+				5DEC5C0317214C190068237A /* UIKit.framework */,
+				5DEC5C0517214C190068237A /* Foundation.framework */,
+				5DEC5C0717214C190068237A /* CoreGraphics.framework */,
+				5DEC5C0917214C190068237A /* MobileCoreServices.framework */,
+				5DEC5C0B17214C190068237A /* CoreVideo.framework */,
+				5DEC5C0D17214C190068237A /* CoreMedia.framework */,
+				5DEC5C0F17214C190068237A /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DEC5C1117214C190068237A /* 舒服的 */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC5C1917214C1A0068237A /* icon.png */,
+				5DEC5C1B17214C1A0068237A /* icon@2x.png */,
+				5DEC5C2417214C1A0068237A /* AppDelegate.h */,
+				5DEC5C2517214C1A0068237A /* AppDelegate.m */,
+				5DEC5C2717214C1A0068237A /* HelloWorldLayer.h */,
+				5DEC5C2817214C1A0068237A /* HelloWorldLayer.m */,
+				5DEC5C2A17214C1A0068237A /* IntroLayer.h */,
+				5DEC5C2B17214C1A0068237A /* IntroLayer.m */,
+				5DEC5C1217214C190068237A /* Resources */,
+				5DEC5C2017214C1A0068237A /* Supporting Files */,
+			);
+			path = "舒服的";
+			sourceTree = "<group>";
+		};
+		5DEC5C1217214C190068237A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC5C1317214C190068237A /* Default.png */,
+				5DEC5C1517214C190068237A /* Default@2x.png */,
+				5DEC5C1717214C1A0068237A /* Default-568h@2x.png */,
+				5DEC5C1D17214C1A0068237A /* Info.plist */,
+				5DEC5C1E17214C1A0068237A /* iTunesArtwork */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5DEC5C2017214C1A0068237A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DEC5C2117214C1A0068237A /* Prefix.pch */,
+				5DEC5C2217214C1A0068237A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DEC5BF717214C190068237A /* 舒服的 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DEC5C2F17214C1A0068237A /* Build configuration list for PBXNativeTarget "舒服的" */;
+			buildPhases = (
+				5DEC5BF417214C190068237A /* Sources */,
+				5DEC5BF517214C190068237A /* Frameworks */,
+				5DEC5BF617214C190068237A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "舒服的";
+			productName = "舒服的";
+			productReference = 5DEC5BF817214C190068237A /* 舒服的.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DEC5BF017214C190068237A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 5DEC5BF317214C190068237A /* Build configuration list for PBXProject "舒服的" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DEC5BEF17214C190068237A;
+			productRefGroup = 5DEC5BF917214C190068237A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DEC5BF717214C190068237A /* 舒服的 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DEC5BF617214C190068237A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEC5C1417214C190068237A /* Default.png in Resources */,
+				5DEC5C1617214C190068237A /* Default@2x.png in Resources */,
+				5DEC5C1817214C1A0068237A /* Default-568h@2x.png in Resources */,
+				5DEC5C1A17214C1A0068237A /* icon.png in Resources */,
+				5DEC5C1C17214C1A0068237A /* icon@2x.png in Resources */,
+				5DEC5C1F17214C1A0068237A /* iTunesArtwork in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEC5BF417214C190068237A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEC5C2317214C1A0068237A /* main.m in Sources */,
+				5DEC5C2617214C1A0068237A /* AppDelegate.m in Sources */,
+				5DEC5C2917214C1A0068237A /* HelloWorldLayer.m in Sources */,
+				5DEC5C2C17214C1A0068237A /* IntroLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DEC5C2D17214C1A0068237A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"BEE_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DEC5C2E17214C1A0068237A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DEC5C3017214C1A0068237A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "舒服的/Prefix.pch";
+				INFOPLIST_FILE = "舒服的/Resources/Info.plist";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-ObjC",
+					"-lxml2",
+					"-lsqlite3",
+					"-llibz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DEC5C3117214C1A0068237A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "舒服的/Prefix.pch";
+				INFOPLIST_FILE = "舒服的/Resources/Info.plist";
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-ObjC",
+					"-lxml2",
+					"-lsqlite3",
+					"-llibz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DEC5BF317214C190068237A /* Build configuration list for PBXProject "舒服的" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEC5C2D17214C1A0068237A /* Debug */,
+				5DEC5C2E17214C1A0068237A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DEC5C2F17214C1A0068237A /* Build configuration list for PBXNativeTarget "舒服的" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DEC5C3017214C1A0068237A /* Debug */,
+				5DEC5C3117214C1A0068237A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DEC5BF017214C190068237A /* Project object */;
+}

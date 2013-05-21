@@ -1,0 +1,15 @@
+[submodule "vendor/Bee_Vendor"]
+	path = vendor/Bee_Vendor
+	url = https://github.com/i5ting/Bee_Vendor.git
+[submodule "vendor/Bee_Foundation"]
+	path = vendor/Bee_Foundation
+	url = https://github.com/i5ting/Bee_Foundation.git
+[submodule "vendor/Bee_ActiveRecord"]
+	path = vendor/Bee_ActiveRecord
+	url = https://github.com/i5ting/Bee_ActiveRecord.git
+[submodule "vendor/Bee_Network"]
+	path = vendor/Bee_Network
+	url = https://github.com/i5ting/Bee_Network.git
+[submodule "vendor/Bee_MVC"]
+	path = vendor/Bee_MVC
+	url = https://github.com/i5ting/Bee_MVC.git
